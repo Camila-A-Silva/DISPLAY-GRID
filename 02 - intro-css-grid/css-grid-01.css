@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gridConteiner{
+    /* Paf
+    drão de alinhamento dos elementos do grid é o stra */
+    display: grid;
+
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
+
+    gap: 10px 15px;
+
+    height: 100vh;
+    /* Alinhar no eixo horizontal */
+    justify-items: center;
+    /* Alinhar no eixo vertical */
+    align-items: center;
+}
+
+.gridItem{
+    background-color: blueviolet;
+    /* padding: 20px; */
+    /* margin: 25px; */
+    height: 200px;
+    width: 200px;
+}
