@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body    {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .conteiner-01{
+            width: 370px;
+            height: 500px;
+            background-color: cadetblue;
+            border-radius: 2px solid red;
+        }
+
+        @media(max-width:400px){
+             body    {
+            background-color: rgb(134, 226, 226);
+        }
+        }
+        @media(min-width:768px){
+             body    {
+            background-color: rgb(172, 134, 226);
+        }
+        }
+        @media(max-width:300px){
+             body    {
+            background-color: rgb(226, 134, 214);
+        }
+            .conteiner-01{
+            width: 270px;
+            height: 400px;
+            background-color: rgb(199, 213, 74);
+            border-radius: 2px solid red;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner-01"></div>
+    
+</body>
+</html>
